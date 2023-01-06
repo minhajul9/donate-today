@@ -4,6 +4,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn-primary{
+    background-color: rgb(244, 93, 67);
+    padding: 20px 35px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0;
+}
+
 
 /* Header section styles */
 .header{
@@ -14,7 +25,7 @@
     text-align: center;
     background-image: url(../images/donation7.jpg);
     background-size: 100% auto;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.317);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.353);
     /* background-color: rgba(0, 0, 0, 0.829); */
     background-repeat: no-repeat;
     background-position: center center;
@@ -26,11 +37,55 @@
     width: 700px;
 }
 .banner h1{
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 800;
 }
 
 /* Main section styles */
+main{
+    display: flex;
+    justify-content: center;
+}
+    /* Donate today */
+    .donate-today{
+        text-align: center;
+        margin-top: 100px;
+        width: 700px;
+        padding-bottom: 50px;
+    }
+
+    .donate-today h2{
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .donate-description{
+        color: darkgray;
+        margin-bottom: 25px;
+    }
+
+    .amount-panel{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .amounts{
+        height: 70px;
+        width: 120px;
+        padding-top: 50px;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgb(166, 166, 166);
+        border-radius: 5px;
+        margin-bottom: 40px;
+        color: gray;
+    }
+
+    #other-amount{
+        border: none;
+        color: gray;
+        margin-bottom: 10px;
+    }
 
 
 /* Footer section styles */
